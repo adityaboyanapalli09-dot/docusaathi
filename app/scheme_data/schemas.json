@@ -1,0 +1,790 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN",
+    "category": "Agriculture, Rural & Environment",
+    "government_level": "Central",
+    "short_description": "Provides financial support to eligible landholding farmer families.",
+    "who_is_it_for": "Eligible landholding farmer families",
+    "eligibility": "Eligible farmer families meeting the scheme requirements.",
+    "benefits": "₹6,000 per year in three equal instalments of ₹2,000.",
+    "documents_required": [
+      "Aadhaar",
+      "Bank account details",
+      "Landholding details"
+    ],
+    "how_to_apply": "Register through the official PM-KISAN system or use an authorised service centre.",
+    "official_source": "National Government Services Portal",
+    "official_application_link": "https://pmkisan.gov.in/"
+  },
+  {
+    "id": "pmfby",
+    "name": "Pradhan Mantri Fasal Bima Yojana",
+    "category": "Agriculture, Rural & Environment",
+    "government_level": "Central",
+    "short_description": "Crop insurance scheme that protects farmers against losses from specified natural calamities, pests and diseases.",
+    "who_is_it_for": "Eligible farmers growing notified crops in notified areas",
+    "eligibility": "Farmers meeting the scheme and notified-area/crop requirements.",
+    "benefits": "Crop insurance protection against covered crop losses.",
+    "documents_required": [
+      "Aadhaar",
+      "Bank account details",
+      "Land/cultivation details",
+      "Crop details"
+    ],
+    "how_to_apply": "Apply through the official crop insurance system, participating banks or authorised channels.",
+    "official_source": "National Government Services Portal",
+    "official_application_link": "https://pmfby.gov.in/"
+  },
+  {
+    "id": "kisan-credit-card",
+    "name": "Kisan Credit Card",
+    "category": "Agriculture, Rural & Environment",
+    "government_level": "Central",
+    "short_description": "Provides farmers with timely credit support for cultivation and other eligible agricultural needs.",
+    "who_is_it_for": "Eligible farmers",
+    "eligibility": "Farmers meeting the lending institution and scheme requirements.",
+    "benefits": "Access to agricultural credit through a simplified credit mechanism.",
+    "documents_required": [
+      "Identity proof",
+      "Address proof",
+      "Land/cultivation details",
+      "Bank documents"
+    ],
+    "how_to_apply": "Apply through participating banks or eligible financial institutions.",
+    "official_source": "National Government Services Portal",
+    "official_application_link": "https://www.india.gov.in/"
+  },
+
+  {
+    "id": "pmjdy",
+    "name": "Pradhan Mantri Jan-Dhan Yojana",
+    "category": "Banking, Financial Services & Insurance",
+    "government_level": "Central",
+    "short_description": "National financial-inclusion programme aimed at providing access to basic banking services.",
+    "who_is_it_for": "Individuals who need access to basic banking and financial services",
+    "eligibility": "Eligibility depends on the banking account-opening requirements.",
+    "benefits": "Access to basic banking and financial services.",
+    "documents_required": [
+      "Identity/address proof",
+      "Other documents required by the bank"
+    ],
+    "how_to_apply": "Approach a participating bank or authorised banking channel.",
+    "official_source": "National Government Services Portal",
+    "official_application_link": "https://pmjdy.gov.in/"
+  },
+  {
+    "id": "pmjjby",
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+    "category": "Banking, Financial Services & Insurance",
+    "government_level": "Central",
+    "short_description": "Renewable life insurance scheme for eligible bank account holders.",
+    "who_is_it_for": "Eligible bank account holders aged 18 to 50 years",
+    "eligibility": "Individuals aged 18–50 with an eligible savings bank account.",
+    "benefits": "₹2 lakh life insurance coverage, subject to scheme terms.",
+    "documents_required": [
+      "Savings bank account",
+      "Consent/authorisation for enrolment"
+    ],
+    "how_to_apply": "Enrol through the participating bank or eligible financial institution.",
+    "official_source": "National Government Services Portal",
+    "official_application_link": "https://jansuraksha.gov.in/"
+  },
+  {
+    "id": "pmsby",
+    "name": "Pradhan Mantri Suraksha Bima Yojana",
+    "category": "Banking, Financial Services & Insurance",
+    "government_level": "Central",
+    "short_description": "Accident insurance scheme for eligible savings bank account holders.",
+    "who_is_it_for": "Eligible bank account holders aged 18 to 70 years",
+    "eligibility": "Individuals aged 18–70 with an eligible savings bank account.",
+    "benefits": "₹2 lakh coverage for accidental death and total disability and ₹1 lakh for partial disability, subject to scheme terms.",
+    "documents_required": [
+      "Savings bank account",
+      "Consent/authorisation for enrolment"
+    ],
+    "how_to_apply": "Enrol through the participating bank or eligible financial institution.",
+    "official_source": "National Government Services Portal",
+    "official_application_link": "https://jansuraksha.gov.in/"
+  },
+
+  {
+    "id": "pm-mudra",
+    "name": "Pradhan Mantri MUDRA Yojana",
+    "category": "Business & Entrepreneurship",
+    "government_level": "Central",
+    "short_description": "Provides institutional credit support for eligible micro and small business activities.",
+    "who_is_it_for": "Eligible micro and small business entrepreneurs",
+    "eligibility": "Applicants must meet the lending institution and scheme requirements.",
+    "benefits": "Access to eligible business loans through participating lending institutions.",
+    "documents_required": [
+      "Identity proof",
+      "Address proof",
+      "Business details",
+      "Bank/financial documents"
+    ],
+    "how_to_apply": "Apply through participating banks, NBFCs or other authorised lending institutions.",
+    "official_source": "National Government Services Portal",
+    "official_application_link": "https://www.mudra.org.in/"
+  },
+  {
+    "id": "pm-svanidhi",
+    "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "category": "Business & Entrepreneurship",
+    "government_level": "Central",
+    "short_description": "Provides support to eligible street vendors to help strengthen their working capital and livelihood.",
+    "who_is_it_for": "Eligible street vendors",
+    "eligibility": "Street vendors meeting the scheme's eligibility and verification requirements.",
+    "benefits": "Access to eligible working-capital support through the scheme.",
+    "documents_required": [
+      "Identity details",
+      "Vendor-related details",
+      "Bank account details"
+    ],
+    "how_to_apply": "Apply through the official PM SVANidhi system or authorised channels.",
+    "official_source": "National Government Services Portal",
+    "official_application_link": "https://pmsvanidhi.mohua.gov.in/"
+  },
+  {
+    "id": "stand-up-india",
+    "name": "Stand-Up India",
+    "category": "Business & Entrepreneurship",
+    "government_level": "Central",
+    "short_description": "Supports entrepreneurship among eligible SC, ST and women entrepreneurs starting Greenfield enterprises.",
+    "who_is_it_for": "Eligible SC, ST and women entrepreneurs",
+    "eligibility": "Eligible SC/ST or women entrepreneurs meeting the scheme and lending requirements.",
+    "benefits": "Access to institutional credit support for eligible Greenfield enterprises.",
+    "documents_required": [
+      "Identity proof",
+      "Address proof",
+      "Business/project details",
+      "Financial documents"
+    ],
+    "how_to_apply": "Apply through participating banks or the official Stand-Up India system.",
+    "official_source": "National Government Services Portal",
+    "official_application_link": "https://www.standupmitra.in/"
+  },
+
+  {
+    "id": "nmms",
+    "name": "National Means-cum-Merit Scholarship Scheme",
+    "category": "Education & Learning",
+    "government_level": "Central",
+    "short_description": "Scholarship support for eligible students to encourage continuation of studies after Class VIII.",
+    "who_is_it_for": "Eligible school students",
+    "eligibility": "Students meeting the scheme's academic and family-income requirements.",
+    "benefits": "Financial scholarship support for eligible students.",
+    "documents_required": [
+      "Student identity details",
+      "Income certificate",
+      "Academic records",
+      "Bank account details"
+    ],
+    "how_to_apply": "Apply through the National Scholarship Portal or the designated state process.",
+    "official_source": "National Portal of India",
+    "official_application_link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": "central-sector-scholarship",
+    "name": "Central Sector Scheme of Scholarship for College and University Students",
+    "category": "Education & Learning",
+    "government_level": "Central",
+    "short_description": "Scholarship support for meritorious students pursuing higher education.",
+    "who_is_it_for": "Eligible college and university students",
+    "eligibility": "Students meeting the academic, income and other scheme conditions.",
+    "benefits": "Financial scholarship assistance for higher education.",
+    "documents_required": [
+      "Academic records",
+      "Income certificate",
+      "Bank account details",
+      "Identity details"
+    ],
+    "how_to_apply": "Apply through the National Scholarship Portal.",
+    "official_source": "National Scholarship Portal",
+    "official_application_link": "https://scholarships.gov.in/"
+  },
+  {
+    "id": "pm-vidyalaxmi",
+    "name": "PM-Vidyalaxmi",
+    "category": "Education & Learning",
+    "government_level": "Central",
+    "short_description": "Education-financing support for eligible students pursuing higher education.",
+    "who_is_it_for": "Eligible students admitted to covered higher education institutions",
+    "eligibility": "Students meeting the scheme's institution and other eligibility requirements.",
+    "benefits": "Facilitates education loans and related financial support.",
+    "documents_required": [
+      "Admission proof",
+      "Academic records",
+      "Identity details",
+      "Income/financial documents"
+    ],
+    "how_to_apply": "Apply through the official education-loan/application platform.",
+    "official_source": "Government of India",
+    "official_application_link": "https://pmvidyalaxmi.co.in/"
+  },
+
+  {
+    "id": "pmjay",
+    "name": "Ayushman Bharat PM-JAY",
+    "category": "Health & Wellness",
+    "government_level": "Central",
+    "short_description": "Government health assurance scheme providing eligible beneficiaries access to covered hospitalisation services.",
+    "who_is_it_for": "Eligible beneficiaries under the scheme",
+    "eligibility": "Eligibility is determined according to government beneficiary criteria.",
+    "benefits": "Health coverage for eligible hospitalisation services under scheme rules.",
+    "documents_required": [
+      "Beneficiary identity details",
+      "Aadhaar or other accepted identification"
+    ],
+    "how_to_apply": "Check eligibility and access services through an authorised Ayushman Bharat channel.",
+    "official_source": "National Health Authority",
+    "official_application_link": "https://pmjay.gov.in/"
+  },
+  {
+    "id": "pmbjp",
+    "name": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana",
+    "category": "Health & Wellness",
+    "government_level": "Central",
+    "short_description": "Makes quality generic medicines available through dedicated Janaushadhi outlets.",
+    "who_is_it_for": "Citizens seeking affordable generic medicines",
+    "eligibility": "Citizens can purchase eligible medicines from participating outlets.",
+    "benefits": "Access to affordable generic medicines.",
+    "documents_required": [],
+    "how_to_apply": "Visit a participating Janaushadhi Kendra with a valid prescription where required.",
+    "official_source": "Pharmaceuticals & Medical Devices Bureau of India",
+    "official_application_link": "https://janaushadhi.gov.in/"
+  },
+  {
+    "id": "nikshay-poshan",
+    "name": "Nikshay Poshan Yojana",
+    "category": "Health & Wellness",
+    "government_level": "Central",
+    "short_description": "Nutritional support for notified tuberculosis patients under the national TB programme.",
+    "who_is_it_for": "Eligible tuberculosis patients registered under the programme",
+    "eligibility": "TB patients registered in the government TB notification system.",
+    "benefits": "Nutritional support subject to the scheme's applicable rules.",
+    "documents_required": [
+      "TB registration details",
+      "Identity details",
+      "Bank account details where applicable"
+    ],
+    "how_to_apply": "Registration is generally carried out through the government TB programme and Nikshay system.",
+    "official_source": "National TB Elimination Programme",
+    "official_application_link": "https://www.nikshay.in/"
+  },
+
+  {
+    "id": "pmay-urban",
+    "name": "Pradhan Mantri Awas Yojana - Urban 2.0",
+    "category": "Housing & Shelter",
+    "government_level": "Central",
+    "short_description": "Housing support for eligible urban families under the government's affordable housing programme.",
+    "who_is_it_for": "Eligible urban households",
+    "eligibility": "Households meeting the applicable PMAY-U 2.0 eligibility conditions.",
+    "benefits": "Housing assistance through applicable components of the scheme.",
+    "documents_required": [
+      "Identity proof",
+      "Address proof",
+      "Income details",
+      "Bank details",
+      "Other documents required by the applicable component"
+    ],
+    "how_to_apply": "Apply through the official PMAY-Urban system or designated local authority.",
+    "official_source": "Ministry of Housing and Urban Affairs",
+    "official_application_link": "https://pmay-urban.gov.in/"
+  },
+  {
+    "id": "pmay-gramin",
+    "name": "Pradhan Mantri Awaas Yojana - Gramin",
+    "category": "Housing & Shelter",
+    "government_level": "Central",
+    "short_description": "Financial assistance for eligible rural households to construct or improve a dwelling.",
+    "who_is_it_for": "Eligible rural households",
+    "eligibility": "Eligibility is determined according to the rural housing scheme criteria.",
+    "benefits": "Financial assistance for eligible rural housing.",
+    "documents_required": [
+      "Identity details",
+      "Household details",
+      "Bank account details",
+      "Land/property details where applicable"
+    ],
+    "how_to_apply": "Eligible beneficiaries are identified and processed through the rural housing programme and local authorities.",
+    "official_source": "Ministry of Rural Development",
+    "official_application_link": "https://pmayg.nic.in/"
+  },
+  {
+    "id": "pmuy",
+    "name": "Pradhan Mantri Ujjwala Yojana",
+    "category": "Housing & Shelter",
+    "government_level": "Central",
+    "short_description": "Supports eligible households in accessing LPG connections.",
+    "who_is_it_for": "Eligible households, particularly those meeting the scheme's deprivation and household criteria.",
+    "eligibility": "Applicants must satisfy the applicable PMUY eligibility requirements.",
+    "benefits": "Support for obtaining an LPG connection under the scheme.",
+    "documents_required": [
+      "Aadhaar",
+      "Address proof",
+      "Bank account details",
+      "Household/ration-card related details where applicable"
+    ],
+    "how_to_apply": "Apply through an LPG distributor or the official PMUY process.",
+    "official_source": "Ministry of Petroleum and Natural Gas",
+    "official_application_link": "https://www.pmuy.gov.in/"
+  },
+
+  {
+    "id": "nalsa-legal-aid",
+    "name": "Free Legal Services through NALSA",
+    "category": "Public Safety, Law & Justice",
+    "government_level": "Central",
+    "short_description": "Provides free legal services to eligible persons through the legal services authorities system.",
+    "who_is_it_for": "Persons eligible for free legal services under applicable law.",
+    "eligibility": "Eligibility depends on categories and conditions specified under the Legal Services Authorities Act.",
+    "benefits": "Access to eligible free legal advice and representation.",
+    "documents_required": [
+      "Identity details",
+      "Documents related to the legal matter",
+      "Eligibility-related documents where applicable"
+    ],
+    "how_to_apply": "Approach the appropriate Legal Services Authority or use the official NALSA platform.",
+    "official_source": "National Legal Services Authority",
+    "official_application_link": "https://nalsa.gov.in/"
+  },
+  {
+    "id": "victim-compensation",
+    "name": "Victim Compensation Scheme",
+    "category": "Public Safety, Law & Justice",
+    "government_level": "Central/State",
+    "short_description": "Provides compensation support to eligible victims of crime under applicable victim compensation provisions.",
+    "who_is_it_for": "Eligible victims of crime",
+    "eligibility": "Eligibility and compensation depend on applicable law and the relevant State/UT scheme.",
+    "benefits": "Financial compensation subject to applicable rules.",
+    "documents_required": [
+      "Identity proof",
+      "Crime/FIR or case details",
+      "Medical or other supporting records where applicable"
+    ],
+    "how_to_apply": "Apply through the relevant Legal Services Authority or designated authority.",
+    "official_source": "National Legal Services Authority",
+    "official_application_link": "https://nalsa.gov.in/"
+  },
+  {
+    "id": "cyber-crime-reporting",
+    "name": "National Cyber Crime Reporting Portal",
+    "category": "Public Safety, Law & Justice",
+    "government_level": "Central",
+    "short_description": "Government portal for reporting cybercrime complaints.",
+    "who_is_it_for": "Citizens affected by cybercrime",
+    "eligibility": "Anyone needing to report a cybercrime can use the appropriate reporting facility.",
+    "benefits": "Online channel for reporting cybercrime to the authorities.",
+    "documents_required": [
+      "Incident details",
+      "Identity/contact details",
+      "Evidence such as screenshots or transaction records where available"
+    ],
+    "how_to_apply": "Submit a complaint through the official cybercrime reporting portal.",
+    "official_source": "Government of India",
+    "official_application_link": "https://www.cybercrime.gov.in/"
+  },
+
+  {
+    "id": "pmgdisha",
+    "name": "Pradhan Mantri Gramin Digital Saksharta Abhiyaan",
+    "category": "Science, IT & Communications",
+    "government_level": "Central",
+    "short_description": "Digital literacy programme aimed at enabling eligible rural citizens to use digital devices and services.",
+    "who_is_it_for": "Eligible rural citizens",
+    "eligibility": "Eligibility is based on the programme's beneficiary conditions.",
+    "benefits": "Digital literacy and training support.",
+    "documents_required": [
+      "Identity details",
+      "Basic beneficiary information"
+    ],
+    "how_to_apply": "Register through an authorised PMGDISHA training centre.",
+    "official_source": "PMGDISHA",
+    "official_application_link": "https://www.pmgdisha.in/"
+  },
+  {
+    "id": "digital-india",
+    "name": "Digital India Programme",
+    "category": "Science, IT & Communications",
+    "government_level": "Central",
+    "short_description": "Government programme focused on expanding digital infrastructure, services and digital empowerment.",
+    "who_is_it_for": "Citizens, businesses and government institutions",
+    "eligibility": "Specific services and initiatives under Digital India have their own eligibility conditions.",
+    "benefits": "Access to digital government services and digital infrastructure initiatives.",
+    "documents_required": [],
+    "how_to_apply": "Use the relevant Digital India service or programme.",
+    "official_source": "Digital India",
+    "official_application_link": "https://www.digitalindia.gov.in/"
+  },
+  {
+    "id": "indiaai",
+    "name": "IndiaAI Mission",
+    "category": "Science, IT & Communications",
+    "government_level": "Central",
+    "short_description": "Government mission supporting development and adoption of artificial intelligence capabilities in India.",
+    "who_is_it_for": "Eligible researchers, startups, institutions and other participating stakeholders depending on the initiative.",
+    "eligibility": "Eligibility varies by IndiaAI initiative or programme.",
+    "benefits": "Opportunities and support under applicable IndiaAI initiatives.",
+    "documents_required": [
+      "Applicant information",
+      "Organisation/project details where applicable"
+    ],
+    "how_to_apply": "Apply through the relevant IndiaAI programme or call.",
+    "official_source": "IndiaAI",
+    "official_application_link": "https://indiaai.gov.in/"
+  },
+
+  {
+    "id": "pm-sym",
+    "name": "Pradhan Mantri Shram Yogi Maandhan",
+    "category": "Social Welfare & Empowerment",
+    "government_level": "Central",
+    "short_description": "Pension scheme for eligible unorganised workers.",
+    "who_is_it_for": "Eligible unorganised workers",
+    "eligibility": "Generally targeted at eligible unorganised workers within the scheme's age and income conditions.",
+    "benefits": "Pension support after meeting the scheme's contribution requirements.",
+    "documents_required": [
+      "Aadhaar",
+      "Bank account details",
+      "Mobile number"
+    ],
+    "how_to_apply": "Enrol through an authorised Common Service Centre or official channel.",
+    "official_source": "Ministry of Labour & Employment",
+    "official_application_link": "https://labour.gov.in/"
+  },
+  {
+    "id": "nsap",
+    "name": "National Social Assistance Programme",
+    "category": "Social Welfare & Empowerment",
+    "government_level": "Central",
+    "short_description": "Social assistance programme providing support to eligible vulnerable persons and households.",
+    "who_is_it_for": "Eligible elderly persons, widows, persons with disabilities and other covered beneficiaries.",
+    "eligibility": "Eligibility depends on the applicable NSAP component and government criteria.",
+    "benefits": "Social assistance under applicable programme components.",
+    "documents_required": [
+      "Identity proof",
+      "Age/status proof",
+      "Bank account details",
+      "Other eligibility documents"
+    ],
+    "how_to_apply": "Apply through the relevant State/UT/local government process.",
+    "official_source": "Ministry of Rural Development",
+    "official_application_link": "https://nsap.nic.in/"
+  },
+  {
+    "id": "smile",
+    "name": "SMILE - Support for Marginalized Individuals for Livelihood and Enterprise",
+    "category": "Social Welfare & Empowerment",
+    "government_level": "Central",
+    "short_description": "Umbrella scheme supporting rehabilitation, welfare, skills and livelihood opportunities for covered marginalised groups.",
+    "who_is_it_for": "Covered marginalised individuals including persons engaged in begging and transgender persons under applicable components.",
+    "eligibility": "Eligibility depends on the applicable SMILE sub-scheme.",
+    "benefits": "Rehabilitation, medical, counselling, education, skill development and livelihood support under applicable components.",
+    "documents_required": [
+      "Identity details",
+      "Relevant beneficiary/category documents"
+    ],
+    "how_to_apply": "Access through the applicable implementing authority or designated channel.",
+    "official_source": "Ministry of Social Justice and Empowerment",
+    "official_application_link": "https://socialjustice.gov.in/"
+  },
+
+  {
+    "id": "khelo-india",
+    "name": "Khelo India",
+    "category": "Sports & Culture",
+    "government_level": "Central",
+    "short_description": "National programme supporting sports development and sporting talent.",
+    "who_is_it_for": "Eligible athletes, youth and sporting institutions under applicable components.",
+    "eligibility": "Eligibility varies by Khelo India component or opportunity.",
+    "benefits": "Sports training, development and support opportunities under applicable programmes.",
+    "documents_required": [
+      "Identity details",
+      "Sports/achievement records where applicable"
+    ],
+    "how_to_apply": "Participate through the relevant Khelo India programme or selection process.",
+    "official_source": "Ministry of Youth Affairs & Sports",
+    "official_application_link": "https://kheloindia.gov.in/"
+  },
+  {
+    "id": "national-sports-development-fund",
+    "name": "National Sports Development Fund",
+    "category": "Sports & Culture",
+    "government_level": "Central",
+    "short_description": "Government-supported fund for promoting and supporting sports development.",
+    "who_is_it_for": "Eligible sportspersons and sports-related initiatives under applicable support mechanisms.",
+    "eligibility": "Eligibility depends on the applicable funding or support mechanism.",
+    "benefits": "Financial or developmental support for eligible sports initiatives and talent.",
+    "documents_required": [
+      "Applicant details",
+      "Sports records/project details where applicable"
+    ],
+    "how_to_apply": "Apply through the relevant sports authority or programme.",
+    "official_source": "Ministry of Youth Affairs & Sports",
+    "official_application_link": "https://yas.nic.in/"
+  },
+  {
+    "id": "cultural-scholarship",
+    "name": "Scheme of Scholarship and Fellowship for Promotion of Art and Culture",
+    "category": "Sports & Culture",
+    "government_level": "Central",
+    "short_description": "Support for eligible artists and cultural practitioners under government cultural programmes.",
+    "who_is_it_for": "Eligible artists and cultural practitioners",
+    "eligibility": "Eligibility varies by the applicable scholarship or fellowship component.",
+    "benefits": "Financial support for eligible cultural and artistic work.",
+    "documents_required": [
+      "Identity details",
+      "Artistic work/achievement records",
+      "Other application documents"
+    ],
+    "how_to_apply": "Apply through the Ministry of Culture's applicable programme.",
+    "official_source": "Ministry of Culture",
+    "official_application_link": "https://culture.gov.in/"
+  },
+
+  {
+    "id": "pmgsy",
+    "name": "Pradhan Mantri Gram Sadak Yojana",
+    "category": "Transport & Infrastructure",
+    "government_level": "Central",
+    "short_description": "Rural roads programme aimed at providing all-weather road connectivity to eligible rural habitations.",
+    "who_is_it_for": "Eligible rural communities and habitations",
+    "eligibility": "Coverage is determined through the programme's rural connectivity criteria.",
+    "benefits": "Improved rural road connectivity and access.",
+    "documents_required": [],
+    "how_to_apply": "Roads are developed through government planning and implementation rather than individual household applications.",
+    "official_source": "Ministry of Rural Development",
+    "official_application_link": "https://pmgsy.nic.in/"
+  },
+  {
+    "id": "pm-e-drive",
+    "name": "PM E-DRIVE Scheme",
+    "category": "Transport & Infrastructure",
+    "government_level": "Central",
+    "short_description": "Government scheme supporting adoption of electric mobility and related infrastructure.",
+    "who_is_it_for": "Eligible electric vehicle buyers and other covered stakeholders.",
+    "eligibility": "Eligibility depends on vehicle type and scheme conditions.",
+    "benefits": "Applicable incentives and support for eligible electric mobility.",
+    "documents_required": [
+      "Vehicle documents",
+      "Identity details",
+      "Dealer/invoice details where applicable"
+    ],
+    "how_to_apply": "Benefits are accessed through eligible vehicles and participating channels under scheme rules.",
+    "official_source": "Ministry of Heavy Industries",
+    "official_application_link": "https://heavyindustries.gov.in/"
+  },
+  {
+    "id": "bharatmala",
+    "name": "Bharatmala Pariyojana",
+    "category": "Transport & Infrastructure",
+    "government_level": "Central",
+    "short_description": "National highways development programme focused on improving road connectivity and transport efficiency.",
+    "who_is_it_for": "Citizens, businesses and communities benefiting from improved highway infrastructure.",
+    "eligibility": "Infrastructure programme; there is generally no individual beneficiary application.",
+    "benefits": "Improved highway connectivity and transport infrastructure.",
+    "documents_required": [],
+    "how_to_apply": "Infrastructure is planned and implemented by government agencies.",
+    "official_source": "Ministry of Road Transport & Highways",
+    "official_application_link": "https://morth.nic.in/"
+  },
+
+  {
+    "id": "prashad",
+    "name": "PRASHAD - Pilgrimage Rejuvenation and Spiritual Heritage Augmentation Drive",
+    "category": "Travel & Tourism",
+    "government_level": "Central",
+    "short_description": "Develops pilgrimage and heritage destinations to improve tourism infrastructure and visitor facilities.",
+    "who_is_it_for": "Pilgrims, tourists and communities at covered destinations.",
+    "eligibility": "Destination-development programme; individuals generally do not apply directly.",
+    "benefits": "Improved tourism infrastructure and visitor facilities.",
+    "documents_required": [],
+    "how_to_apply": "No individual application is generally required.",
+    "official_source": "Ministry of Tourism",
+    "official_application_link": "https://tourism.gov.in/"
+  },
+  {
+    "id": "swadesh-darshan",
+    "name": "Swadesh Darshan",
+    "category": "Travel & Tourism",
+    "government_level": "Central",
+    "short_description": "Government tourism programme supporting development of sustainable and thematic tourism destinations.",
+    "who_is_it_for": "Tourists and communities at covered destinations.",
+    "eligibility": "Destination-development programme rather than an individual-beneficiary scheme.",
+    "benefits": "Improved tourism infrastructure and destination experiences.",
+    "documents_required": [],
+    "how_to_apply": "No individual application is generally required.",
+    "official_source": "Ministry of Tourism",
+    "official_application_link": "https://tourism.gov.in/"
+  },
+  {
+    "id": "incredible-india",
+    "name": "Incredible India",
+    "category": "Travel & Tourism",
+    "government_level": "Central",
+    "short_description": "National tourism initiative promoting travel destinations and tourism experiences in India.",
+    "who_is_it_for": "Domestic and international travellers.",
+    "eligibility": "Open tourism information initiative.",
+    "benefits": "Access to official tourism information and destination resources.",
+    "documents_required": [],
+    "how_to_apply": "Use the official tourism information portal.",
+    "official_source": "Ministry of Tourism",
+    "official_application_link": "https://www.incredibleindia.gov.in/"
+  },
+
+  {
+    "id": "jal-jeevan-mission",
+    "name": "Jal Jeevan Mission",
+    "category": "Utility & Sanitation",
+    "government_level": "Central",
+    "short_description": "Programme focused on providing functional tap-water connections to rural households.",
+    "who_is_it_for": "Rural households and communities",
+    "eligibility": "Coverage is implemented through rural water-supply planning and State/UT programmes.",
+    "benefits": "Access to household tap-water supply under the programme.",
+    "documents_required": [],
+    "how_to_apply": "Implementation is generally through local government and State/UT water-supply systems.",
+    "official_source": "Jal Jeevan Mission",
+    "official_application_link": "https://jaljeevanmission.gov.in/"
+  },
+  {
+    "id": "swachh-bharat-mission",
+    "name": "Swachh Bharat Mission",
+    "category": "Utility & Sanitation",
+    "government_level": "Central",
+    "short_description": "National sanitation programme supporting cleanliness, sanitation and waste-management improvements.",
+    "who_is_it_for": "Citizens, households and local communities.",
+    "eligibility": "Specific benefits depend on the applicable rural or urban component.",
+    "benefits": "Sanitation infrastructure and cleanliness support under applicable programmes.",
+    "documents_required": [
+      "Household/local-body details where applicable"
+    ],
+    "how_to_apply": "Use the relevant State/UT or local-government sanitation programme.",
+    "official_source": "Government of India",
+    "official_application_link": "https://swachhbharatmission.ddws.gov.in/"
+  },
+  {
+    "id": "ujjwala",
+    "name": "Ujjwala 2.0",
+    "category": "Utility & Sanitation",
+    "government_level": "Central",
+    "short_description": "Provides LPG connection support to eligible households under the Ujjwala programme.",
+    "who_is_it_for": "Eligible households meeting Ujjwala 2.0 conditions.",
+    "eligibility": "Applicants must satisfy the applicable Ujjwala 2.0 eligibility requirements.",
+    "benefits": "Support for obtaining an LPG connection.",
+    "documents_required": [
+      "Aadhaar",
+      "Address proof",
+      "Bank account details",
+      "Household details"
+    ],
+    "how_to_apply": "Apply through an LPG distributor or official Ujjwala channel.",
+    "official_source": "Ministry of Petroleum and Natural Gas",
+    "official_application_link": "https://www.pmuy.gov.in/"
+  },
+
+  {
+    "id": "beti-bachao-beti-padhao",
+    "name": "Beti Bachao Beti Padhao",
+    "category": "Women & Child",
+    "government_level": "Central",
+    "short_description": "Government initiative promoting the value, protection and education of the girl child.",
+    "who_is_it_for": "Girls, children, families and communities.",
+    "eligibility": "Programme activities depend on the applicable government initiative and local implementation.",
+    "benefits": "Support for awareness, education and empowerment of girls.",
+    "documents_required": [],
+    "how_to_apply": "Participate through applicable government programmes and local initiatives.",
+    "official_source": "Ministry of Women and Child Development",
+    "official_application_link": "https://wcd.gov.in/"
+  },
+  {
+    "id": "pmmvy",
+    "name": "Pradhan Mantri Matru Vandana Yojana",
+    "category": "Women & Child",
+    "government_level": "Central",
+    "short_description": "Maternity benefit programme providing financial support to eligible pregnant and lactating women.",
+    "who_is_it_for": "Eligible pregnant and lactating women.",
+    "eligibility": "Eligibility depends on the applicable PMMVY conditions.",
+    "benefits": "Maternity benefit assistance subject to scheme rules.",
+    "documents_required": [
+      "Aadhaar",
+      "Bank account details",
+      "Pregnancy/childbirth-related records",
+      "Other documents required under the scheme"
+    ],
+    "how_to_apply": "Apply through the designated PMMVY system or local implementing authorities.",
+    "official_source": "Ministry of Women and Child Development",
+    "official_application_link": "https://pmmvy.wcd.gov.in/"
+  },
+  {
+    "id": "mission-shakti",
+    "name": "Mission Shakti",
+    "category": "Women & Child",
+    "government_level": "Central",
+    "short_description": "Umbrella programme focused on women's safety, security and empowerment.",
+    "who_is_it_for": "Women and girls covered by applicable components.",
+    "eligibility": "Eligibility depends on the specific Mission Shakti component.",
+    "benefits": "Access to safety, support, empowerment and related services.",
+    "documents_required": [
+      "Identity details",
+      "Other documents depending on the service"
+    ],
+    "how_to_apply": "Access the relevant Mission Shakti service through designated government channels.",
+    "official_source": "Ministry of Women and Child Development",
+    "official_application_link": "https://wcd.gov.in/"
+  },
+  {
+    "id": "pmkvy",
+    "name": "Pradhan Mantri Kaushal Vikas Yojana",
+    "category": "Skills & Employment",
+    "government_level": "Central",
+    "short_description": "Provides skill training and certification opportunities to eligible candidates.",
+    "who_is_it_for": "Eligible youth and other candidates seeking skill development",
+    "eligibility": "Eligibility depends on the applicable PMKVY training component.",
+    "benefits": "Skill training, assessment and certification under applicable programme components.",
+    "documents_required": [
+      "Identity details",
+      "Educational details where applicable"
+    ],
+    "how_to_apply": "Apply through an authorised PMKVY training centre or official programme channel.",
+    "official_source": "Ministry of Skill Development and Entrepreneurship",
+    "official_application_link": "https://www.pmkvyofficial.org/"
+  },
+  {
+    "id": "naps",
+    "name": "National Apprenticeship Promotion Scheme",
+    "category": "Skills & Employment",
+    "government_level": "Central",
+    "short_description": "Supports apprenticeship training and encourages employers to engage apprentices.",
+    "who_is_it_for": "Eligible apprentices and participating establishments",
+    "eligibility": "Eligibility depends on apprenticeship and establishment requirements.",
+    "benefits": "Apprenticeship training and financial support under applicable scheme provisions.",
+    "documents_required": [
+      "Identity details",
+      "Educational or qualification records",
+      "Bank account details"
+    ],
+    "how_to_apply": "Apply through the official apprenticeship system and participating establishments.",
+    "official_source": "Ministry of Skill Development and Entrepreneurship",
+    "official_application_link": "https://www.apprenticeshipindia.gov.in/"
+  },
+  {
+    "id": "ddu-gky",
+    "name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+    "category": "Skills & Employment",
+    "government_level": "Central",
+    "short_description": "Provides skill development and placement-oriented training for eligible rural youth.",
+    "who_is_it_for": "Eligible rural youth seeking skill training and employment",
+    "eligibility": "Eligibility depends on the applicable DDU-GKY requirements.",
+    "benefits": "Skill training and employment-oriented support.",
+    "documents_required": [
+      "Identity details",
+      "Age/educational details",
+      "Other documents required by the training programme"
+    ],
+    "how_to_apply": "Apply through an authorised DDU-GKY training centre or implementing agency.",
+    "official_source": "Ministry of Rural Development",
+    "official_application_link": "https://ddugky.info/"
+  }
+]

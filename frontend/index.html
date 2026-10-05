@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DocuSaathi — Official documents, made simple</title>
+  <meta name="description" content="DocuSaathi helps you verify authenticity and understand official Indian government, legal, and public documents in your language." />
+  <meta property="og:title" content="DocuSaathi — Official documents, made simple" />
+  <meta property="og:description" content="DocuSaathi helps you verify authenticity and understand official Indian government, legal, and public documents in your language." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500;600;700&family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Legacy hooks kept so nothing that references them breaks; hidden in CSS -->
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+
+  <!-- Woven-border strip, a nod to the kinari edge of a sari or dupatta -->
+  <div class="kinari" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="DocuSaathi home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <rect x="1.5" y="1.5" width="25" height="25" stroke="currentColor" stroke-width="1.3"/>
+          <path d="M14 5.5l8.5 8.5-8.5 8.5L5.5 14z" fill="currentColor"/>
+          <path d="M10.6 14.2l2.6 2.6 4.4-4.8" stroke="#F3EFE6" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span>Docu<span>Saathi</span></span>
+    </a>
+    <div class="header-pill" lang="hi">दस्तावेज़ों का साथी</div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <h1>Understand your official papers. Check they are genuine.</h1>
+      <p class="hero-copy">
+        Upload a certificate, notice or land record. We tell you whether it looks genuine, or explain it in your own language and list what to do next.
+      </p>
+    </section>
+
+    <section class="workspace">
+      <!-- 1 · Document -->
+      <div class="field field-upload">
+        <div class="field-label"><span class="step">1</span><span>Add your document</span></div>
+
+        <div class="upload-card" id="uploadCard" tabindex="0" role="region" aria-label="Document upload area">
+          <div class="upload-glow" aria-hidden="true"></div>
+          <div class="upload-icon" aria-hidden="true">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="12" y1="18" x2="12" y2="12"></line>
+              <polyline points="9 15 12 12 15 15"></polyline>
+            </svg>
+          </div>
+          <h2 id="fileTitle">Drop your document here</h2>
+          <p id="fileHint">Aadhaar, PAN, notices, gazette, land records · PDF, JPG, PNG up to 20 MB</p>
+          <label class="upload-button">
+            <span>Choose file</span>
+            <input id="fileInput" type="file" accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png" />
+          </label>
+          <button class="camera-button" id="cameraButton" type="button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+              <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+            <span>Take a photo instead</span>
+          </button>
+          <input id="cameraInput" type="file" accept="image/*" capture="environment" hidden />
+        </div>
+      </div>
+
+      <!-- 2 · Purpose, 3 · Language -->
+      <div class="options">
+        <div class="field-label section-label"><span class="step">2</span><span>What do you need?</span></div>
+
+        <div class="mode-group">
+
+  <button class="mode-card selected" data-mode="verify" type="button" aria-pressed="true">
+    <span class="mode-icon verify-icon" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="1.6"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+        <polyline points="9 12 11 14 15 10"></polyline>
+      </svg>
+    </span>
+
+    <span class="mode-text">
+      <strong>Is this document official?</strong>
+      <small>Looks at seals, serial numbers, the issuing office and signs of editing.</small>
+    </span>
+
+    <span class="mode-arrow" aria-hidden="true"></span>
+  </button>
+
+
+  <button class="mode-card" data-mode="understand" type="button" aria-pressed="false">
+    <span class="mode-icon understand-icon" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="1.6"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+      </svg>
+    </span>
+
+    <span class="mode-text">
+      <strong>Understand this document</strong>
+      <small>Checks it first, then explains it in plain words and lists what to do next.</small>
+    </span>
+
+    <span class="mode-arrow" aria-hidden="true"></span>
+  </button>
+
+
+  <!-- NEW: FORM FILLING MODE -->
+  <button class="mode-card" data-mode="fill-form" type="button" aria-pressed="false">
+    <span class="mode-icon fill-form-icon" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="1.6"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+        <polyline points="14 2 14 8 20 8"></polyline>
+        <line x1="8" y1="13" x2="16" y2="13"></line>
+        <line x1="8" y1="17" x2="13" y2="17"></line>
+      </svg>
+    </span>
+
+    <span class="mode-text">
+      <strong>Help me fill this form</strong>
+      <small>Guides you field by field and explains what to enter.</small>
+    </span>
+
+    <span class="mode-arrow" aria-hidden="true"></span>
+  </button>
+
+</div>
+
+        <div class="language-row">
+          <div class="field-label"><span class="step">3</span><label for="language">Reply in</label></div>
+          <select id="language" aria-label="Select response language">
+            <option value="English">English</option>
+            <option value="Hindi">हिन्दी (Hindi)</option>
+            <option value="Telugu">తెలుగు (Telugu)</option>
+            <option value="Tamil">தமிழ் (Tamil)</option>
+            <option value="Kannada">ಕನ್ನಡ (Kannada)</option>
+            <option value="Malayalam">മലയാളം (Malayalam)</option>
+            <option value="Bengali">বাংলা (Bengali)</option>
+            <option value="Marathi">मराठी (Marathi)</option>
+          </select>
+        </div>
+
+        <button class="primary-button" id="continueButton" type="button" disabled>
+          <span id="continueText">Select a document</span>
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="trust-strip">
+      <span>Private by design</span>
+      <span>Powered by Sarvam AI</span>
+    </section>
+    <p class="fineprint">This is guidance, not legal advice. For anything important, confirm with the office that issued the document.</p>
+
+    <!-- Result view -->
+    <section class="result hidden" id="result">
+      <div class="result-head">
+        <div>
+          <div class="eyebrow">Your result</div>
+          <h2 id="resultTitle">Verification complete</h2>
+        </div>
+        <button class="ghost-button" id="newDocument" type="button">+ New document</button>
+      </div>
+      <div id="resultBody"></div>
+    </section>
+  </main>
+
+  <!-- Interactive feedback elements -->
+  <div class="toast" id="toast" aria-live="polite"></div>
+
+  <div class="loading-overlay hidden" id="loading" role="dialog" aria-modal="true" aria-labelledby="loadingTitle">
+    <div class="loader-card">
+      <div class="spinner" aria-hidden="true"></div>
+      <div>
+        <strong id="loadingTitle">Checking your document</strong>
+        <p id="loadingText">Running verification checks…</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

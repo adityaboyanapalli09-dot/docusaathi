@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "page_count": 5,
+  "pages_succeeded": 5,
+  "pages_failed": 0,
+  "pages_discarded": 0,
+  "language": "en-IN",
+  "documents": [
+    {
+      "folder": "DocuSaathi_Project_Plan.pdf",
+      "included": true,
+      "status": "completed",
+      "page_count": 5,
+      "pages_succeeded": 5,
+      "pages_failed": 0,
+      "pages_discarded": 0
+    }
+  ]
+}
